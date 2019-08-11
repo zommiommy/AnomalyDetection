@@ -1,0 +1,4 @@
+#!/bin/bash
+# AnomalyDetection is a free software developed by Tommaso Fontana for Würth Phoenix S.r.l. under GPL-2 License.
+DIR=$(dirname "$(realpath $0)")
+$DIR/../env/bin/python $DIR/../src/main.py "$@"

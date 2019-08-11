@@ -1,0 +1,250 @@
+{
+    "input-db-settings":{
+        "database": {
+            "short":"-idb",
+            "long":"--input-database",
+            "default":"icinga2",
+            "type":"str",
+            "help":"The databse from where the data shall be read"
+        },
+        "host":{
+            "short":"-ih",
+            "long":"--input-host",
+            "default":"localhost",
+            "type":"str",
+            "help":"The hostname / ip of the Influx DBMS"
+        },
+        "port": {
+            "short":"-ip",
+            "long":"--input-port",
+            "default":8086,
+            "type":"int",
+            "help":"The port of the Influx DBMS"
+        },
+        "username": {
+            "short":"-iu",
+            "long":"--input-username",
+            "default":"root",
+            "type":"str",
+            "help":"The username to use to login into the Influx DBMS"
+        },
+        "password": {
+            "short":"-iP",
+            "long":"--input-password",
+            "default":"root",
+            "type":"str",
+            "help":"The password to use to login into the Influx DBMS"
+        },
+        "ssl": {
+            "short":"-issl",
+            "long":"--input-ssl",
+            "default":false,
+            "action":"store_true",
+            "help":"Whether to use ssl or else"
+        },
+        "verify-ssl":{
+            "short":"-ivs",
+            "long":"--input-verify-ssl",
+            "default":false,
+            "action":"store_true",
+            "help":"Whether to use verify the ssl certificates or else"
+        }
+    },
+    "read-settings":{
+        "measurement":{
+            "long":"measurement",
+            "metavar":"MEASUREMENT",
+            "type":"str",
+            "help":"The measuremnt from where the data shall be read"
+        },
+        "host":{
+            "long":"host",
+            "metavar":"HOST",
+            "type":"str",
+            "help":"The host from whom the data shall be filtered"
+        },
+        "field":{
+            "short":"-f",
+            "long":"--add-field",
+            "default":[],
+            "action":"append",
+            "type":"str",
+            "help":"Add the field to the analysis. if this argument is not setted then the script will use all the field of the schema."
+        },
+        "exclude":{
+            "short":"-e",
+            "long":"--exclude-field",
+            "default":[],
+            "action":"append",
+            "type":"str",
+            "help":"Exclude the selected field from the analysis."
+        },
+        "time":{
+            "short":"-t",
+            "long":"--timeframe",
+            "default":"4000w",
+            "type":"str",
+            "help":"Select the timeframe relative to now of the analysis. 1d means that it will be used the data of the last day."
+        }
+    },
+    "training-settings":{
+        "min-n-of-data-points":{
+            "short":"-tmdp",
+            "long":"--training-min-n-of-data-points",
+            "default":50,
+            "type":"int",
+            "help":"The minimum number of points the training needs."
+        },
+        "time":{
+            "short":"-tt",
+            "long":"--training-timeframe",
+            "default":"4000w",
+            "type":"str",
+            "help":"Set the timeframe relative to now of the training. 1m means that it will use the data of the last month."
+        }
+    },
+    "analyisis-settings":{
+        "seed":{
+            "short":"-as",
+            "long":"--analysis-seed",
+            "default":100,
+            "type":"int",
+            "help":"Set the seed for the analysis. This is done inorder to have reproducible results."
+        },
+        "min-n-of-data-points":{
+            "short":"-amnodp",
+            "long":"--analysis-min-n-of-data-points",
+            "default":50,
+            "type":"int",
+            "help":"The minimum number of points the analysis needs."
+        }
+
+    },
+    "model-settings":{
+        "model-file-format":{
+            "short":"-mff",
+            "long":"--model-file-format",
+            "default":"models/{host}/{measurement}-{host}.pkl",
+            "type":"str",
+            "help":"The path where to save the trained model, this is a format string so it can be used {host} for the name of the selected host and {measurement} for the measurment, finally {date} for the date in which the model was trained. If the path do not exist, the folder will be created."
+        },
+        "contamination": {
+            "short":"-mc",
+            "long":"--model-contamination",
+            "default":"auto",
+            "type":"str",
+            "help":"The percentage of outliers expected. By defaults is at auto."
+        },
+        "max-samples": {
+            "short":"-mms",
+            "long":"--model-max-n-of-samples",
+            "default":150,
+            "type":"int",
+            "help":"Since the datapoints might be a lot, for speed reason the data wil be representd by a sample choosen randomly form the data, this set the max size of the sample."
+        },
+        "n-jobs": {
+            "short":"-mnj",
+            "long":"--model-n-of-jobs",
+            "default":4,
+            "type":"int",
+            "help":"Number of core to be used for the analysis."
+        },
+        "n-estimators": {
+            "short":"-mnf",
+            "long":"--model-n-of-estimators",
+            "default":200,
+            "type":"int",
+            "help":"The score is based on the mean path lenght, this setting specify how many runs to use to extimate the mean."
+        }
+    },
+    "classification-settings":{
+        "smoothing-window-size": {
+            "short":"-csws",
+            "long":"--classification-smoothing-windows-size",
+            "default":30,
+            "type":"int",
+            "help":"The size of the moving average used to smooth the data"
+        },
+        "normal_percentage": {
+            "short":"-cnp",
+            "long":"--classification-normal-percentage",
+            "default":0.95,
+            "type":"float",
+            "help":"The probability that a random value (taken from an uniform distribuiton) is classified as normal."
+        },
+        "anomaly_percentage": {
+            "short":"-cap",
+            "long":"--classification-anomaly-percentage",
+            "default":0.98,
+            "type":"float",
+            "help":"The probability that a random value (taken from an uniform distribuiton) is classified as an anomaly."
+        }
+    },
+    "output-db-settings":{
+        "database": {
+            "short":"-odb",
+            "long":"--output-database",
+            "default":"icinga2",
+            "type":"str",
+            "help":"The databse from where the data shall be written"
+        },
+        "host":{
+            "short":"-oh",
+            "long":"--output-host",
+            "default":"localhost",
+            "type":"str",
+            "help":"The hostname / ip of the Influx DBMS"
+        },
+        "port": {
+            "short":"-op",
+            "long":"--output-port",
+            "default":8086,
+            "type":"int",
+            "help":"The port of the Influx DBMS"
+        },
+        "username": {
+            "short":"-ou",
+            "long":"--output-username",
+            "default":"root",
+            "type":"str",
+            "help":"The username to use to login into the Influx DBMS"
+        },
+        "password": {
+            "short":"-oP",
+            "long":"--output-password",
+            "default":"root",
+            "type":"str",
+            "help":"The password to use to login into the Influx DBMS"
+        },
+        "ssl": {
+            "short":"-ossl",
+            "long":"--output-ssl",
+            "default":false,
+            "action":"store_true",
+            "help":"Whether to use ssl or else"
+        },
+        "verify-ssl":{
+            "short":"-ovs",
+            "long":"--output-verify-ssl",
+            "default":false,
+            "action":"store_true",
+            "help":"Whether to use verify the ssl certificates or else"
+        }
+    },
+    "write-settings":{
+        "dry-run": {
+            "short":"-dr",
+            "long":"--write-dry-run",
+            "default":false,
+            "action":"store_true",
+            "help":"If this flag is setted the script will not write the results on the output DB. It's mostly for testing."
+        },
+        "measurement-name":{
+            "short":"-wmn",
+            "long":"--write-measuremnt-name",
+            "default":"{measurement}_ml",
+            "type":"str",
+            "help":"The name of the output measurement where the data will be written, it's a format string where {measurement} will be replaced with the name of the measurement from which the data are read."
+        }
+    }
+}
