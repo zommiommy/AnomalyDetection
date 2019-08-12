@@ -15,10 +15,10 @@ class DBAdapter:
     def __init__(self, db_settings):
         self.settings = db_settings
 
-        logger.info("Conneting to the DB on [{host}:{port}] for the database [{database}]".format(**self.settings))
-
-
-        self.client = InfluxDBClient(**self.settings)
+    def _connect_to_db(self):
+        if "client" not in dir(self):
+            logger.info("Conneting to the DB on [{host}:{port}] for the database [{database}]".format(**self.settings))
+            self.client = InfluxDBClient(**self.settings)
 
     def validate_settings(self, settings : dict):
         if any(any(c in value for c in """'#"%""") for value in settings.values()):
@@ -60,6 +60,7 @@ class DBAdapter:
         return results
 
     def get_data(self, read_settings):
+        self._connect_to_db()
         self.read_settings = self.validate_settings(read_settings)
         logger.info("Gathering the data to be analyzed")
 
@@ -71,6 +72,7 @@ class DBAdapter:
         return casted_results.pop("time"), casted_results
 
     def get_training_data(self, training_settings):
+        self._connect_to_db()
         settings = self.read_settings.copy()
         settings["time"] = training_settings["time"]
 
@@ -113,6 +115,7 @@ class DBAdapter:
                 json.dump(results, f, indent=4)
             return
 
+        self._connect_to_db()
         logger.info("Writing results to the DB [{host}:{port}] on the measurement [{name}]".format(**self.settings, name=name))
         self.client.write_points(results)
 
