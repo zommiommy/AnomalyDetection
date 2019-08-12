@@ -14,7 +14,7 @@ def data_caster(data):
     data = transpose(data)
     casted = {
         k : np.array([
-            value_caster(x)
+            value_caster(k, x)
             for x in v
         ]).reshape(-1, 1)
         for k, v in data.items()
@@ -24,24 +24,26 @@ def data_caster(data):
         if is_not_all_nan(v)
     }
 
-def value_caster(value):
+def value_caster(key, value):
     """THIS IS HORRIBLE, but I need to cast strings to the actual value and I have no info about what those are."""
-    result = parse_time_to_epoch(value)
-    if result and result != 0:
-        return result
+    if type(value) == str:
+        if key == "time":
+            result = parse_time_to_epoch(value)
+            if result and result != 0:
+                return result
 
-    try:
-        return float(value)
-    except:
-        pass
+        try:
+            return float(value)
+        except:
+            pass
 
-    return np.nan
+        return np.nan
 
 epoch_to_iso = lambda x: datetime.fromtimestamp(x).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 iso_to_epoch = lambda x: datetime.fromisoformat(x).timestamp()
 
-rfc3339_pattern = re.compile(r"(.+?)\.(\d+)Z")
+rfc3339_pattern = re.compile(r"(.+?)(\.(\d+))?Z")
 time_pattern = re.compile(r"(\d+w)?(\d+d)?(\d+h)?(\d+m)?(\d+.?\d*s)?")
     
 
@@ -58,7 +60,7 @@ def rfc3339_to_epoch(string):
     founds = re.findall(rfc3339_pattern, string)
     if len(founds) <= 0:
         return string
-    date, ns = founds[0]
+    date, _, ns = founds[0]
     dt = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S')
     return dt.timestamp() + float("0." + ns) # TIME ZONES OH NO
 

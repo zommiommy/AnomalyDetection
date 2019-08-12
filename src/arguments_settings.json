@@ -71,6 +71,14 @@
             "type":"str",
             "help":"Add the field to the analysis. if this argument is not setted then the script will use all the field of the schema."
         },
+        "selector":{
+            "short":"-s",
+            "long":"--add-selector",
+            "default":[],
+            "action":"append",
+            "type":"str",
+            "help":"Add the selector to the analysis. This is the list of fields that will be used to group the data for the analysis"
+        },
         "exclude":{
             "short":"-e",
             "long":"--exclude-field",

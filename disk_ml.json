@@ -1,0 +1,3782 @@
+[
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.042442549570151256,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477093,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "crit"
+        },
+        "fields": {
+            "score": -0.02051793479477082,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": -0.0453370386331029,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "max"
+        },
+        "fields": {
+            "score": 0.0018801183950348799,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.12470039403718847,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.12470039403718847,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.05325399633946004,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.06956731569916319,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.11735227151596861,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.04078546052396781,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03617774232636334,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03913444435208213,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03676371855708638,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.03348184316067815,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.05335362564932933,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.023094225884501884,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03544247659835886,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.023094225884501884,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.04078546052396781,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.15450564008641376,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03617774232636334,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.13617049333449727,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03544247659835886,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.13888717125552197,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.022915838871340632,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.022915838871340632,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.15234615049788258,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.04197667724089427,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.15234615049788258,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.018274004306057134,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.025021675016981604,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.01195376498017775,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.025021675016981604,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.007474382027178095,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.013168197230543743,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.047888882969234214,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.0013946726423379463,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.025021675016981604,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.004555309062666768,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.025021675016981604,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.011199065195427682,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03158768278334356,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03158768278334356,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01983695056790924,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.006993089229428762,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.01318760919893014,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.03158768278334356,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.045782628603172226,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.045782628603172226,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.08171678007069194,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.045782628603172226,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.08171678007069194,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.045782628603172226,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.013774600957368988,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": 0.045782628603172226,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.08171678007069194,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "value"
+        },
+        "fields": {
+            "score": -0.038491637678978896,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.0672491765236859,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": 0.003171614526446598,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "warn"
+        },
+        "fields": {
+            "score": -0.021488661163044487,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.11024442835008186,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.11024442835008186,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.039701792980049944,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.05274030550875164,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.0987488039268628,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.013371175497737808,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.01270223615720012,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.024582440256030957,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.03083544284146722,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.07991154235496045,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.06148210737356974,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.0012714977658865312,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.010805601195547632,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.0012714977658865312,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.013371175497737808,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.13582849707700573,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.07735808008561074,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.11593846323708035,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.04714685225022175,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.1179604388710439,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.060984354084843484,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.060984354084843484,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.11639130753783877,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.041688299883865465,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.11639130753783877,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.042944035568330374,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.004575830922504798,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.00227817487483295,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.004575830922504798,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.004079095808162125,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.007769236299544513,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.03928816592116513,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.0028908956428114196,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.004575830922504798,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.0031232495621619782,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.004575830922504798,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.009101096009577758,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.03077971568125326,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.03077971568125326,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.034399541748806606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.0018873354140888088,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.014961567496677153,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.03077971568125326,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.04562550898048118,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.04562550898048118,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.055116354253339606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.04562550898048118,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.055116354253339606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.04562550898048118,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.027436763618970406,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": 0.04562550898048118,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.055116354253339606,
+            "class": 2.0
+        }
+    },
+    {
+        "measurement": "disk_ml",
+        "time": "1970-01-01T00:00:01.000000Z",
+        "tags": {
+            "hostname": "rt-sccm01-p1.idolrt.regione.toscana.it",
+            "kpi": "all"
+        },
+        "fields": {
+            "score": -0.04239059164564052,
+            "class": 2.0
+        }
+    }
+]

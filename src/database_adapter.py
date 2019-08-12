@@ -10,6 +10,7 @@ from data_caster import data_caster, epoch_to_iso
 
 class DBAdapter:
     fields_query   = """SHOW FIELD KEYS ON "{database}" FROM "{measurement}" """
+    tags_query     = """SHOW TAG KEYS ON "{database}" FROM "{measurement}" """
     data_query     = """SELECT {fields} FROM (SELECT * FROM "{measurement}" WHERE hostname = '{host}' AND time > (now() - {time}))"""
 
     def __init__(self, db_settings):
@@ -34,17 +35,27 @@ class DBAdapter:
         return results
 
     def get_fields_types(self):
-        logger.info("Querying the DB to get the types of each fields in order to convert the data to the right type.")
+        logger.info("Querying the DB to get the types of each FIELDS in order to convert the data to the right type.")
         results = self.exec_query(self.fields_query.format(**{**self.settings,**self.read_settings}))
         self.fields = {x["fieldKey"] : x["fieldType"] for x in results}
+        logger.info("Querying the DB to get the types of each TAGS in order to convert the data to the right type.")
+        results = self.exec_query(self.tags_query.format(**{**self.settings,**self.read_settings}))
+        self.tags = {x["tagKey"] : str for x in results}
+
+        if "host" in self.fields.keys() or "host" in self.tags.keys():
+            self.host_field = "host"
+        else:
+            self.host_field = "hostname"
+        logger.info("Detected that the host value is called [{}]".format(self.host_field))
 
     def get_fields_to_parse(self):
         logger.info("Since no field was passed, the script will now get all the fields of the measurement")
         return [
             x
-            for x in self.fields.keys()
+            for l in [self.fields.keys(), self.tags.keys()]
+            for x in l
             if x not in [
-                "hostname"
+                self.host_field
             ]
         ]
 
@@ -82,11 +93,15 @@ class DBAdapter:
         return results
 
     def write(self, results, write_settings, read_settings):
+        self.read_settings = read_settings
         # I expect result to be a list of dictionaries
         # If the dry-run flag is set then do not write
         if write_settings["dry_run"]:
             logger.info("Dry-run flag set, then the results will not be written to the DB.")
             return
+
+        self._connect_to_db()
+        self.get_fields_types()
 
         # Compose the name of the measurement
         name = write_settings["measurement_name"].format(**read_settings)
@@ -99,7 +114,7 @@ class DBAdapter:
                     "measurement":name, 
                     "time": epoch_to_iso(x.pop("time")),
                     "tags":{
-                        "host":host,
+                        self.host_field:host,
                         "kpi":x.pop("kpi")
                     },
                     "fields": {
@@ -115,7 +130,6 @@ class DBAdapter:
                 json.dump(results, f, indent=4)
             return
 
-        self._connect_to_db()
         logger.info("Writing results to the DB [{host}:{port}] on the measurement [{name}]".format(**self.settings, name=name))
         self.client.write_points(results)
 
