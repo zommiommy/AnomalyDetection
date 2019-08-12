@@ -8,38 +8,24 @@ class Classifier:
     def __init__(self, settings):
         self.settings = settings
 
-    def smooth_data(self, data):
-        logger.info("Smoothing the scores")
-        n = self.settings["smoothing_window_size"]
-        kernel = np.ones(n) / n
-        return {
-            kpi : np.convolve(values, kernel)
-            for kpi, values in data.items()
-        }
-
-    def filter_data(self, data):
-        logger.info("Filtering the scores")
-        return data
 
     def _classify(self, data):
         logger.info("Classifying the scores")
-        output = {}
-        for kpi, values in data.items():
+        for selector, points in data.items():
+            values = points["score"]
             # Calc the two thresholds for normals and anomalies
             normals   = np.nanquantile(values, self.settings["normal_percentage"])
-            logger.info("The normal quantile for the kpi [{kpi}] is [{normals}]".format(**locals()))
+            logger.info("The normal quantile for the selector [{selector}] is [{normals}]".format(**locals()))
             anomalies = np.nanquantile(values, self.settings["anomaly_percentage"])
-            logger.info("The anomaly quantile for the kpi [{kpi}] is [{anomalies}]".format(**locals()))
+            logger.info("The anomaly quantile for the selector [{selector}] is [{anomalies}]".format(**locals()))
             # By default values are possible anomalies
             result = np.ones_like(values)
             result[result < normals] = 0
             result[result > anomalies] = 2
-            output[kpi] = result
+            data[selector]["class"] = result
         
-        return output
+        return data
 
     def classify(self, data):
-        data = self.smooth_data(data)
-        data = self.filter_data(data)
         classes = self._classify(data)
         return classes

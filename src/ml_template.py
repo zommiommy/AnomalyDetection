@@ -11,10 +11,11 @@ class ML_template:
         raise NotImplementedError()
     
     def _check_data(self, data, minimum):
-        for name, values in data.items():
-            if values.size < minimum:
-                logger.error("The number of points is [{length}] which is less than the min required [{minimum}]".format(length=values.size, minimum=minimum))
-                sys.exit(1)
+        for selector, points in data.items():
+            for name, values in points.items():
+                if values.size < minimum:
+                    logger.error("The number of points is [{length}] which is less than the min required [{minimum}]".format(length=values.size, minimum=minimum))
+                    sys.exit(1)
 
     def train(self, data : np.array, settings : dict) -> None:
         raise NotImplementedError()

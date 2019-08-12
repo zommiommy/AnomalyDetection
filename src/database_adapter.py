@@ -8,6 +8,24 @@ from influxdb import InfluxDBClient
 from logger import logger
 from data_caster import data_caster, epoch_to_iso
 
+def get_unique_combinations(list_of_dictionaries, selectors): 
+    unique = [] 
+    for item in [[(k, x[k]) for k in selectors] for x in list_of_dictionaries]: 
+        if item not in unique: 
+            unique.append(item) 
+    return unique 
+
+def transpose(lista):
+    """Transpose a list of dictionaries to a dictionary of lists. 
+       It assumes all the dictionaries have the sames keys."""
+    _dict = {}
+    for x in lista:
+        for k, v in x.items():
+            _dict.setdefault(k,[])
+            _dict[k] += [v]
+    return _dict
+
+
 class DBAdapter:
     fields_query   = """SHOW FIELD KEYS ON "{database}" FROM "{measurement}" """
     tags_query     = """SHOW TAG KEYS ON "{database}" FROM "{measurement}" """
@@ -70,6 +88,20 @@ class DBAdapter:
         logger.info("The fields rendered are [{results}]".format(**locals()))
         return results
 
+
+    def _group_data(self, results, read_settings):
+        return  {
+                    combination : [
+                        x for x in results
+                        if x[read_settings["selector"]] == combination
+                    ]
+                    for combination in {
+                            x[read_settings["selector"]]
+                            for x in results
+                        }
+                }
+        
+    
     def get_data(self, read_settings):
         self._connect_to_db()
         self.read_settings = self.validate_settings(read_settings)
@@ -79,8 +111,9 @@ class DBAdapter:
         logger.info("The fields that will be analyzed are [{fields}]".format(**locals()))
 
         results = self.exec_query(self.data_query.format(**read_settings, fields=", ".join(fields)))
+        results = self._group_data(results, read_settings)
         casted_results = data_caster(results)
-        return casted_results.pop("time"), casted_results
+        return casted_results
 
     def get_training_data(self, training_settings):
         self._connect_to_db()
@@ -88,7 +121,7 @@ class DBAdapter:
         settings["time"] = training_settings["time"]
 
         # Get the data
-        _, results = self.get_data(settings)
+        results = self.get_data(settings)
 
         return results
 
@@ -107,22 +140,24 @@ class DBAdapter:
         name = write_settings["measurement_name"].format(**read_settings)
         host = read_settings["host"]
 
-        t = epoch_to_iso(time.time())
         # port the data to the influx standard
         results = [
                 {
                     "measurement":name, 
-                    "time": epoch_to_iso(x.pop("time")),
+                    "time": epoch_to_iso(t),
                     "tags":{
                         self.host_field:host,
-                        "kpi":x.pop("kpi")
+                        read_settings["selector"]:selector
                     },
                     "fields": {
-                        **x
+                        "score":float(s),
+                        "class":int(_c)
                     }
-                } for x in results
+                } 
+                for selector, points in results.items()
+                for t, s, _c in zip(results[selector]["time"], results[selector]["score"], results[selector]["class"])
             ]
-
+            
         if write_settings["write_to_file"]:
             filepath = write_settings["output_file"].format(**read_settings)
             logger.info("write-to-file flag set, then the results will not be written to the DB but on {}".format(filepath))

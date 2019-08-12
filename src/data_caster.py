@@ -3,6 +3,7 @@ import re
 import numpy as np
 from time import time
 from datetime import datetime
+from pprint import pprint
 
 def is_not_all_nan(x):
     try:
@@ -11,17 +12,27 @@ def is_not_all_nan(x):
         return False
 
 def data_caster(data):
-    data = transpose(data)
+    data = {
+        key : transpose(value)
+        for key, value in data.items()
+    }
     casted = {
-        k : np.array([
-            value_caster(k, x)
-            for x in v
-        ]).reshape(-1, 1)
-        for k, v in data.items()
+        K : {
+            k : np.array([
+                value_caster(k, x)
+                for x in v
+            ]).reshape(-1, 1)
+            for k, v in V.items()
+        }
+        for K, V in data.items()
     }
     return {
-        k : v for k, v in casted.items()
-        if is_not_all_nan(v)
+        K : {
+            k : v 
+            for k, v in V.items()
+            if is_not_all_nan(v)
+        }
+        for K, V in casted.items()
     }
 
 def value_caster(key, value):
