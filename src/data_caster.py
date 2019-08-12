@@ -16,7 +16,7 @@ def data_caster(data):
         k : np.array([
             value_caster(x)
             for x in v
-        ])
+        ]).reshape(-1, 1)
         for k, v in data.items()
     }
     return {
@@ -37,7 +37,7 @@ def value_caster(value):
 
     return np.nan
 
-epoch_to_iso = lambda x: datetime.fromtimestamp(x).strftime("%Y-%m-%dT%H:%M:%SZ")
+epoch_to_iso = lambda x: datetime.fromtimestamp(x).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 iso_to_epoch = lambda x: datetime.fromisoformat(x).timestamp()
 
@@ -46,12 +46,12 @@ time_pattern = re.compile(r"(\d+w)?(\d+d)?(\d+h)?(\d+m)?(\d+.?\d*s)?")
     
 
 def parse_time_to_epoch(string):
-    if re.match(time_pattern, string):
-        return time_to_epoch(string)
-    if re.match(rfc3339_pattern, string):
+    if string.endswith("Z"):
         return rfc3339_to_epoch(string)
     if string.isnumeric():
         return int(string)
+    if re.match(time_pattern, string):
+        return time_to_epoch(string)
     
     
 def rfc3339_to_epoch(string):
@@ -60,7 +60,7 @@ def rfc3339_to_epoch(string):
         return string
     date, ns = founds[0]
     dt = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S')
-    return dt.timestamp() + float("0." + ns)
+    return dt.timestamp() + float("0." + ns) # TIME ZONES OH NO
 
 def epoch_to_time(epoch):
     if epoch == "inf":

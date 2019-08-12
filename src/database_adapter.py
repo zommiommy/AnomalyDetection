@@ -1,6 +1,7 @@
 
 import sys
 import time
+from pprint import pprint
 from influxdb import InfluxDBClient
 
 from logger import logger
@@ -66,14 +67,14 @@ class DBAdapter:
 
         results = self.exec_query(self.data_query.format(**read_settings, fields=", ".join(fields)))
         casted_results = data_caster(results)
-        return casted_results
+        return casted_results.pop("time"), casted_results
 
     def get_training_data(self, training_settings):
         settings = self.read_settings.copy()
         settings["time"] = training_settings["time"]
 
         # Get the data
-        results = self.get_data(settings)
+        _, results = self.get_data(settings)
 
         return results
 
@@ -88,17 +89,23 @@ class DBAdapter:
         name = write_settings["measurement_name"].format(**read_settings)
         host = read_settings["host"]
 
+        t = epoch_to_iso(time.time())
         # port the data to the influx standard
         results = [
                 {
                     "measurement":name, 
-                    "fields": {
+                    "time": epoch_to_iso(x.pop("time")),
+                    "tags":{
                         "host":host,
-                        **x
+                        "kpi":x.pop("kpi")
                     },
-                    "time": epoch_to_iso(time.time())
+                    "fields": {
+                        **x
+                    }
                 } for x in results
             ]
+        
+        pprint(results)
 
         logger.info("Writing results to the DB [{host}:{port}] on the measurement [{name}]".format(**self.settings, name=name))
         self.client.write_points(results)

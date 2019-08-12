@@ -135,12 +135,12 @@
             "type":"str",
             "help":"The percentage of outliers expected. By defaults is at auto."
         },
-        "max-samples": {
-            "short":"-mms",
-            "long":"--model-max-n-of-samples",
-            "default":150,
-            "type":"int",
-            "help":"Since the datapoints might be a lot, for speed reason the data wil be representd by a sample choosen randomly form the data, this set the max size of the sample."
+        "behaviour": {
+            "short":"-mb",
+            "long":"--model-behaviour",
+            "default":"new",
+            "type":"str",
+            "help":"Select which API the IsolationForest will use"
         },
         "n-jobs": {
             "short":"-mnj",
