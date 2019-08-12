@@ -104,8 +104,6 @@ class DBAdapter:
                     }
                 } for x in results
             ]
-        
-        pprint(results)
 
         logger.info("Writing results to the DB [{host}:{port}] on the measurement [{name}]".format(**self.settings, name=name))
         self.client.write_points(results)
