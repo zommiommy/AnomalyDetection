@@ -239,6 +239,20 @@
             "action":"store_true",
             "help":"If this flag is setted the script will not write the results on the output DB. It's mostly for testing."
         },
+        "write-to-file": {
+            "short":"-wtf",
+            "long":"--write-to-file",
+            "default":false,
+            "action":"store_true",
+            "help":"If this flag is setted the script will not write the results on the output DB but on the JSON file setted by the --output-file argument."
+        },
+        "output-file":{
+            "short":"-of",
+            "long":"--output-file",
+            "default":"{measurement}_ml.json",
+            "type":"str",
+            "help":"The name of the output file that will be created if the --write-to-fle flag is set. "
+        },
         "measurement-name":{
             "short":"-wmn",
             "long":"--write-measuremnt-name",

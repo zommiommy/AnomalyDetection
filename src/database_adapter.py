@@ -1,6 +1,7 @@
 
 import sys
 import time
+import json
 from pprint import pprint
 from influxdb import InfluxDBClient
 
@@ -104,6 +105,13 @@ class DBAdapter:
                     }
                 } for x in results
             ]
+
+        if write_settings["write_to_file"]:
+            filepath = write_settings["output_file"].format(**read_settings)
+            logger.info("write-to-file flag set, then the results will not be written to the DB but on {}".format(filepath))
+            with open(filepath, "w") as f:
+                json.dump(results, f, indent=4)
+            return
 
         logger.info("Writing results to the DB [{host}:{port}] on the measurement [{name}]".format(**self.settings, name=name))
         self.client.write_points(results)
