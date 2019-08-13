@@ -3,7 +3,7 @@
         "database": {
             "short":"-idb",
             "long":"--input-database",
-            "default":"icinga2",
+            "default":"perfdata",
             "type":"str",
             "help":"The databse from where the data shall be read"
         },
@@ -89,7 +89,7 @@
         "time":{
             "short":"-t",
             "long":"--timeframe",
-            "default":"4000w",
+            "default":"1w",
             "type":"str",
             "help":"Select the timeframe relative to now of the analysis. 1d means that it will be used the data of the last day."
         }
@@ -105,7 +105,7 @@
         "time":{
             "short":"-tt",
             "long":"--training-timeframe",
-            "default":"4000w",
+            "default":"4w",
             "type":"str",
             "help":"Set the timeframe relative to now of the training. 1m means that it will use the data of the last month."
         }
@@ -198,7 +198,7 @@
         "database": {
             "short":"-odb",
             "long":"--output-database",
-            "default":"icinga2",
+            "default":"perfdata",
             "type":"str",
             "help":"The databse from where the data shall be written"
         },
