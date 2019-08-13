@@ -49,6 +49,8 @@ def value_caster(key, value):
             pass
 
         return np.nan
+    else:
+        return value
 
 epoch_to_iso = lambda x: datetime.fromtimestamp(x).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
