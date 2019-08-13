@@ -29,7 +29,7 @@ def transpose(lista):
 class DBAdapter:
     fields_query   = """SHOW FIELD KEYS ON "{database}" FROM "{measurement}" """
     tags_query     = """SHOW TAG KEYS ON "{database}" FROM "{measurement}" """
-    data_query     = """SELECT {fields} FROM (SELECT * FROM "{measurement}" WHERE hostname = '{host}' AND time > (now() - {time}))"""
+    data_query     = """SELECT {fields} FROM (SELECT * FROM "{measurement}" WHERE {host_field} = '{host}' AND time > (now() - {time}))"""
 
     def __init__(self, db_settings):
         self.settings = db_settings
@@ -110,7 +110,7 @@ class DBAdapter:
         fields = self.render_fields()
         logger.info("The fields that will be analyzed are [{fields}]".format(**locals()))
 
-        results = self.exec_query(self.data_query.format(**read_settings, fields=", ".join(fields)))
+        results = self.exec_query(self.data_query.format(**read_settings, fields=", ".join(fields), host_field=self.host_field))
         results = self._group_data(results, read_settings)
         casted_results = data_caster(results)
         return casted_results
