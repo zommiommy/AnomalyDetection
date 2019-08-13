@@ -190,7 +190,7 @@
             "short":"-cilv",
             "long":"--classification-ignore-lower-values",
             "default":true,
-            "action":"store_true",
+            "action":"store_false",
             "help":"If this flag is setted the script will never detect the values between the means as anomalous."
         }
     },
