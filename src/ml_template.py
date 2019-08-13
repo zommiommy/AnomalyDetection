@@ -25,3 +25,6 @@ class ML_template:
 
     def analyze(self, data : np.array, settings : dict) -> np.array:
         raise NotImplementedError()
+
+    def classify(self, data, classification_settings):
+        raise NotImplementedError()
