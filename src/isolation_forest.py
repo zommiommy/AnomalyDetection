@@ -66,8 +66,9 @@ class IsolationForest(ML_template):
             result[values > anomalies] = 2
 
             if classification_settings["ignore_lower_values"]:
+                logger.info("The analysis will defaults to normal points under the mean")
                 # If the flag is set then the value below the mean are normal by defaults
-                result[values < np.mean(values, axis=0)] = 0
+                result[np.all(self._stack_data(points) < self.models[selector]["loc"], axis=1)] = 0
                 
             data[selector]["class"] = result
         

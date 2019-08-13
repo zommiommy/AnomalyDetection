@@ -23,7 +23,7 @@ class DistributionEstimator(ML_template):
         return True
 
     def _stack_data(self, values):
-        return np.column_stack([v for k, v in values.items() if k != "time"])
+        return np.column_stack([v for k, v in values.items() if k not in ["time", "score"]])
 
     def train(self, data, settings):
         self._check_data(data, settings["min_n_of_data_points"])
@@ -72,8 +72,9 @@ class DistributionEstimator(ML_template):
             result[values > anomalies] = 2
 
             if classification_settings["ignore_lower_values"]:
+                logger.info("The analysis will defaults to normal points under the mean")
                 # If the flag is set then the value below the mean are normal by defaults
-                result[values < np.mean(values, axis=0)] = 0
+                result[np.all(self._stack_data(points) < self.models[selector]["loc"], axis=1)] = 0
 
             data[selector]["class"] = result
         return data
