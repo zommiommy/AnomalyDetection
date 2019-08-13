@@ -175,14 +175,14 @@
         "normal_percentage": {
             "short":"-cnp",
             "long":"--classification-normal-percentage",
-            "default":0.95,
+            "default":0.90,
             "type":"float",
             "help":"The probability that a random value (taken from an uniform distribuiton) is classified as normal."
         },
         "anomaly_percentage": {
             "short":"-cap",
             "long":"--classification-anomaly-percentage",
-            "default":0.98,
+            "default":0.95,
             "type":"float",
             "help":"The probability that a random value (taken from an uniform distribuiton) is classified as an anomaly."
         }
