@@ -70,5 +70,10 @@ class DistributionEstimator(ML_template):
             result = np.ones_like(values)
             result[values < normals] = 0
             result[values > anomalies] = 2
+
+            if classification_settings["ignore_lower_values"]:
+                # If the flag is set then the value below the mean are normal by defaults
+                result[values < np.mean(values, axis=0)] = 0
+
             data[selector]["class"] = result
         return data

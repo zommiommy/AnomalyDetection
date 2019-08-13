@@ -185,6 +185,13 @@
             "default":0.95,
             "type":"float",
             "help":"The probability that a random value (taken from an uniform distribuiton) is classified as an anomaly."
+        },
+        "ignore-lower-values": {
+            "short":"-cilv",
+            "long":"--classification-ignore-lower-values",
+            "default":true,
+            "action":"store_true",
+            "help":"If this flag is setted the script will never detect the values between the means as anomalous."
         }
     },
     "output-db-settings":{
