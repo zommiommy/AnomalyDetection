@@ -1,3 +1,4 @@
+# AnomalyDetection is a free software developed by Tommaso Fontana for Würth Phoenix S.r.l. under GPL-2 License.
 
 from data_caster import transpose
 from classifier import Classifier as CL

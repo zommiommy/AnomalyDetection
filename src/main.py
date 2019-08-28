@@ -1,3 +1,4 @@
+# AnomalyDetection is a free software developed by Tommaso Fontana for Würth Phoenix S.r.l. under GPL-2 License.
 
 import json
 import logging
