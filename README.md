@@ -12,7 +12,20 @@ The script try to infer the probability distribution of the data and classify th
 e.g.
 ![](https://github.com/zommiommy/AnomalyDetection/raw/master/doc/chi_quadro.png)
 
+It expect the data to be in the form:
+```
+time         host            kpi                value
+----         ----            ---                -----
+1567005362   my.host.com     disk_utilization   0.9
+```
+and the result will be in the form:
+```
+time         host            kpi                class   score
+----         ----            ---                -----   -----
+1567005362   my.host.com     disk_utilization   1       1.5336
+```
 
+The data and it's classification will have the same ```time```. Each point in the time-frame will be analyzed and Classified.
 
 The software specification and more informations (only in Italian for now) can be found [here](https://github.com/zommiommy/AnomalyDetection/raw/master/doc/WP_anomaly_detection_V1_1.pdf).
 
@@ -238,3 +251,39 @@ e.g.
 DIR=$(dirname "$(python -c "import os,sys; print(os.path.realpath(sys.argv[1]))" $0)")
 $DIR/../env/bin/python $DIR/../src/main.py "$@"
 ```
+
+## Future Improvements
+The script is written with modularity in mind so the ```main.py``` is just a wrapper that take the arguments and pass them to the ```detect_anomalies``` function in the file ```src/detect_anomalies.py```.
+
+So the same logic can be used as part of a bigger software.
+
+Moreover the aforesaid function is ML-method angostic:
+
+```python
+def detect_anomalies(input_db_settings, read_settings, training_settings, analyisis_settings, model_settings, classification_settings, output_db_settings, write_settings):
+
+    db_in = DB(input_db_settings)
+    data = db_in.get_data(read_settings)
+
+    ml = ML(model_settings, read_settings)
+
+    if ml.needs_training():
+        train_data = db_in.get_training_data(training_settings)
+        ml.train(train_data, training_settings)
+
+    scores  = ml.analyze(data, analyisis_settings)
+
+    result = ml.classify(scores, classification_settings)
+
+    db_out = DB(output_db_settings)
+    db_out.write(result, write_settings, read_settings)
+```
+
+Therefore more detection methods can be implemented by creating classes that extends ```src/ml_template.py```
+
+Other smaller improvements can be :
+
+- Query Caching with expiring date
+- Multiprocessing the analysis
+- Adding the possibility to select different detection methods (Current one, Isolation Forest, ...)
+- Model Caching
