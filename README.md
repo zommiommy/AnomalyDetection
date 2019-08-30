@@ -27,6 +27,9 @@ time         host            kpi                class   score
 
 The data and it's classification will have the same ```time```. Each point in the time-frame will be analyzed and Classified.
 
+So on Graphana it could be visualized as:
+![](https://raw.githubusercontent.com/zommiommy/AnomalyDetection/master/doc/example.jpg)
+
 The software specification and more informations (only in Italian for now) can be found [here](https://github.com/zommiommy/AnomalyDetection/raw/master/doc/WP_anomaly_detection_V1_1.pdf).
 
 ## Installation
