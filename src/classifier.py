@@ -16,9 +16,9 @@ class Classifier:
             values = points["score"]
             # Calc the two thresholds for normals and anomalies
             normals   = np.nanquantile(values, self.settings["normal_percentage"])
-            logger.info("The normal quantile for the selector [{selector}] is [{normals}]".format(**locals()))
+            logger.info(f"The normal quantile for the selector [{selector}] is [{normals}]")
             anomalies = np.nanquantile(values, self.settings["anomaly_percentage"])
-            logger.info("The anomaly quantile for the selector [{selector}] is [{anomalies}]".format(**locals()))
+            logger.info(f"The anomaly quantile for the selector [{selector}] is [{anomalies}]")
             # By default values are possible anomalies
             result = np.ones_like(values)
             result[result < normals] = 0

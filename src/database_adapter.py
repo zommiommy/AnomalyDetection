@@ -86,7 +86,7 @@ class DBAdapter:
         if "time" not in fields:
             fields.append("time")
         results = [x for x in fields if x not in self.read_settings["exclude"]]
-        logger.info("The fields rendered are [{results}]".format(**locals()))
+        logger.info(f"The fields rendered are [{results}]")
         return results
 
 
@@ -109,7 +109,7 @@ class DBAdapter:
         logger.info("Gathering the data to be analyzed")
 
         fields = self.render_fields()
-        logger.info("The fields that will be analyzed are [{fields}]".format(**locals()))
+        logger.info(f"The fields that will be analyzed are [{fields}]")
 
         results = self.exec_query(self.data_query.format(**read_settings, fields=", ".join(fields), host_field=self.host_field))
         results = self._group_data(results, read_settings)

@@ -36,7 +36,7 @@ class IsolationForest(ML_template):
 
     
     def set_seed(self, seed):
-        logger.info("Setting the seed to [{seed}]".format(**locals()))
+        logger.info(f"Setting the seed to [{seed}]")
         random.seed(seed)
         np.random.seed(seed)
 
@@ -58,9 +58,9 @@ class IsolationForest(ML_template):
             values = points["score"]
             # Calc the two thresholds for normals and anomalies
             normals   = np.nanquantile(values, self.settings["normal_percentage"])
-            logger.info("The normal quantile for the selector [{selector}] is [{normals}]".format(**locals()))
+            logger.info(f"The normal quantile for the selector [{selector}] is [{normals}]")
             anomalies = np.nanquantile(values, self.settings["anomaly_percentage"])
-            logger.info("The anomaly quantile for the selector [{selector}] is [{anomalies}]".format(**locals()))
+            logger.info(f"The anomaly quantile for the selector [{selector}] is [{anomalies}]")
             # By default values are possible anomalies
             result = np.ones_like(values)
             result[values < normals] = 0
