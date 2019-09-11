@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: dicthash
+Version: 0.0.2
+Summary: Generate portable md5 hashes from (arbitrarily nested) dictionaries.
+Home-page: https://github.com/INM-6/python-dicthash
+Author: Jakob Jordan, Maximilian Schmidt
+Author-email: j.jordan@fz-juelich.de
+License: MIT
+Keywords: hashing hash
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: future
+
+dicthash
+========
+
+Generate portable md5 hashes from (arbitrarily nested) dictionaries. These dictionaries can contain arbitrary Python and NumPy data types. The goal of the module is to provide a hash function that can be safely used across different platforms. Its main use is to generate unique identifiers for parameter dictionaries used in parameter scans of neural network simulations.
+
+It exposes a single function to the user `dicthash.generate_hash_from_dict`.
+
+
+It exposes a single function to the user: `generate_hash_from_dict`.
+The user can set two global parameters:
+
+- `FLOAT_FACTOR`
+
+  To ensure consistency between different systems, the library
+  multiplies floats with the `FLOAT_FACTOR` and then converts them to
+  integers.
+
+- `FLOOR_SMALL_FLOATS`
+
+  If the float is smaller than the inverse of the `FLOAT_FACTOR`, it
+  cannot be safely converted. If `FLOOR_SMALL_FLOATS` is set to True,
+  the library will round the float to zero. If set to False, it will
+  throw an error in this case.
+
+
+![Python2.7](https://img.shields.io/badge/python-2.7-blue.svg)
+![Python3.6](https://img.shields.io/badge/python-3.6-blue.svg)
+[![PyPI version fury.io](https://d25lcipzij17d.cloudfront.net/badge.svg?id=py&type=6&v=0.0.2&x2=0)](https://pypi.org/project/dicthash/)
+[![GPL license](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+Code status
+===========
+
+[![Build Status](https://travis-ci.org/INM-6/python-dicthash.svg?branch=master)](https://travis-ci.org/INM-6/python-dicthash)
+[![Coverage Status](https://coveralls.io/repos/github/INM-6/python-dicthash/badge.svg?branch=master)](https://coveralls.io/github/INM-6/python-dicthash?branch=master)
+
+
