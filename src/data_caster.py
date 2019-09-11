@@ -12,6 +12,10 @@ def is_not_all_nan(x):
     except TypeError:
         return False
 
+def get_floor_hour(t):
+    return (t % (24 * 60 * 60)) // (60 * 60)
+
+
 def data_caster(data):
     data = {
         key : transpose(value)
@@ -27,7 +31,7 @@ def data_caster(data):
         }
         for K, V in data.items()
     }
-    return {
+    nan_removed = {
         K : {
             k : v 
             for k, v in V.items()
@@ -35,9 +39,22 @@ def data_caster(data):
         }
         for K, V in casted.items()
     }
+    group_by_hours = {
+        Kpi : {
+            hour :{
+                 Selector: values[get_floor_hour(selectors["time"]) == hour]
+                for Selector, values in selectors.items()
+            }
+            for hour in range(24)
+        }
+        for Kpi, selectors in nan_removed.items()
+    }
+    return group_by_hours
 
 def value_caster(key, value):
     """THIS IS HORRIBLE, but I need to cast strings to the actual value and I have no info about what those are."""
+    if type(value) in [int, float]:
+        return value
     if type(value) == str:
         if key == "time":
             result = parse_time_to_epoch(value)

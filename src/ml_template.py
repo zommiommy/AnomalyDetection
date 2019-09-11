@@ -1,4 +1,5 @@
 # AnomalyDetection is a free software developed by Tommaso Fontana for Würth Phoenix S.r.l. under GPL-2 License.
+import sys
 import numpy as np
 
 from logger import logger
@@ -11,11 +12,12 @@ class ML_template:
         raise NotImplementedError()
     
     def _check_data(self, data, minimum):
-        for selector, points in data.items():
-            for name, values in points.items():
-                if values.size < minimum:
-                    logger.error("The number of points is [{length}] which is less than the min required [{minimum}]".format(length=values.size, minimum=minimum))
-                    sys.exit(1)
+        for selector, hours in data.items():
+            for hour, points in hours.items():
+                for name, values in points.items():
+                    if values.size < minimum:
+                        logger.error(f"The number of points of [{selector} : {hour} : {name}] is [{values.size}] which is less than the min required [{minimum}]")
+                        sys.exit(1)
 
     def train(self, data : np.array, settings : dict) -> None:
         raise NotImplementedError()

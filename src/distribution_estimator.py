@@ -14,7 +14,7 @@ from pprint import pprint
 class DistributionEstimator(ML_template):
 
     def __init__(self, model_settings, read_settings):
-        logger.info("Using model [DistributionEstimator]")
+        logger.info(f"Using model [{self.__class__.__name__}]")
         self.path  = model_settings.pop("model_file_format").format(**read_settings)
         logger.info("The model path is [{path}]".format(path=self.path))
         self.model_settings = model_settings
@@ -29,13 +29,13 @@ class DistributionEstimator(ML_template):
     def train(self, data, settings):
         self._check_data(data, settings["min_n_of_data_points"])
         logger.info("Training the Models")
-
-        for selector, values in data.items():
-            self.models[selector] = {
-                "loc":np.mean(self._stack_data(values), axis=0),
-                "scale":np.std(self._stack_data(values), axis=0)
-            }
-
+        for selector, hours in data.items():
+            for hour, values in hours.items():
+                self.models.setdefault(selector, {})
+                self.models[selector][hour] = {
+                    "loc":np.mean(self._stack_data(values), axis=0),
+                    "scale":np.std(self._stack_data(values), axis=0)
+                }
         logger.info("Models Trained")
 
     
@@ -49,11 +49,22 @@ class DistributionEstimator(ML_template):
         logger.info("Setting the seed for reproducibility porpouses.")
         self.set_seed(settings["seed"])
         logger.info("Predicting the average anomalies scores for the data")
-        output = data.copy()
-
-        for selector, values in data.items():
-            # Calculate the - log probability of the values assuming that they are independent (Usually just 1 feature so reasonable)
-            output[selector]["score"] = -np.sum(norm.logpdf(self._stack_data(values), **self.models[selector]), axis=1)
+        # Degroup by hour
+        output = {
+            selector : {
+                kpi: [
+                    x
+                    for hour in hours.keys()
+                    for x in hours[hour][kpi]
+                ]
+                for kpi in hours[0].keys()
+            }
+            for selector, hours in data.items()
+        }
+        for selector, hours in data.items():
+            for hour, values in hours.items():
+                # Calculate the - log probability of the values assuming that they are independent (Usually just 1 feature so reasonable)
+                output[selector]["score"] = -np.sum(norm.logpdf(self._stack_data(values), **self.models[selector][hour]), axis=1)
 
         return output
 
@@ -71,11 +82,13 @@ class DistributionEstimator(ML_template):
             result = np.ones_like(values)
             result[values < normals] = 0
             result[values > anomalies] = 2
-
+ 
             if classification_settings["ignore_lower_values"]:
                 logger.info("The analysis will defaults to normal points under the mean")
                 # If the flag is set then the value below the mean are normal by defaults
-                result[np.all(self._stack_data(points) < self.models[selector]["loc"], axis=1)] = 0
+                means = [self.models[selector][hour]["loc"] for hour in range(24)]
+                mean_of_mean = np.mean(means)
+                result[np.all(self._stack_data(points) < mean_of_mean, axis=1)] = 0
 
             data[selector]["class"] = result
         return data
