@@ -8,6 +8,7 @@ from influxdb import InfluxDBClient
 
 from logger import logger
 from data_caster import data_caster, epoch_to_iso
+from cacher import cacher
 
 def get_unique_combinations(list_of_dictionaries, selectors): 
     unique = [] 
@@ -115,7 +116,8 @@ class DBAdapter:
         results = self._group_data(results, read_settings)
         casted_results = data_caster(results)
         return casted_results
-
+        
+    @cacher
     def get_training_data(self, training_settings):
         self._connect_to_db()
         settings = self.read_settings.copy()
