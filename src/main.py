@@ -55,10 +55,10 @@ If there is a plugin for the measurement it will be used, else the script will a
     args = parser.parse_args()
 
     # TODO set it to the right value
-    if args.verbosity == 0:
+    if args.verbosity == 1:
         setLevel(logging.INFO)
     else:
-        setLevel(logging.CRITICAL)
+        setLevel(logging.ERROR)
 
     # Replace the description of the argument with the value
     settings = {
