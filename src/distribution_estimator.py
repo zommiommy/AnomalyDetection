@@ -19,6 +19,7 @@ class DistributionEstimator(ML_template):
         self.path  = model_settings.pop("model_file_format").format(**read_settings)
         logger.info("The model path is [{path}]".format(path=self.path))
         self.model_settings = model_settings
+        self.read_settings = read_settings
         self.models = {}
 
     def needs_training(self):
@@ -28,7 +29,8 @@ class DistributionEstimator(ML_template):
         return np.column_stack([v for k, v in values.items() if k not in ["time", "score"]])
 
     @cacher
-    def _train(self, models, data, settings):
+    def _train(self, models, data, settings, read_settings):
+        """This function has useless arguments for the cacher to identify different Calls"""
         for selector, hours in data.items():
             for hour, values in hours.items():
                 models.setdefault(selector, {})
@@ -41,7 +43,7 @@ class DistributionEstimator(ML_template):
     def train(self, data, settings):
         self._check_data(data, settings["min_n_of_data_points"])
         logger.info("Training the Models")
-        self.models = self._train(self.models, data, settings)
+        self.models = self._train(self.models, data, settings, self.read_settings)
         logger.info("Models Trained")
 
     

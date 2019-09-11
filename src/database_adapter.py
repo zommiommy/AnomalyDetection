@@ -118,7 +118,8 @@ class DBAdapter:
         return casted_results
         
     @cacher
-    def get_training_data(self, training_settings):
+    def _get_training_data(self, training_settings, read_settings):
+        """Dummy function with useless arguments for the cacher to be able to differentiate calls"""
         self._connect_to_db()
         settings = self.read_settings.copy()
         settings["time"] = training_settings["time"]
@@ -127,6 +128,9 @@ class DBAdapter:
         results = self.get_data(settings)
 
         return results
+
+    def get_training_data(self, training_settings):
+        return self._get_training_data(training_settings, self.read_settings)
 
     def write(self, results, write_settings, read_settings):
         self.read_settings = read_settings
