@@ -7,6 +7,7 @@ import pandas as pd
 from scipy.stats import norm
 
 from logger import logger
+from cacher import cacher
 from ml_template import ML_template
 
 from pprint import pprint
@@ -26,16 +27,21 @@ class DistributionEstimator(ML_template):
     def _stack_data(self, values):
         return np.column_stack([v for k, v in values.items() if k not in ["time", "score"]])
 
-    def train(self, data, settings):
-        self._check_data(data, settings["min_n_of_data_points"])
-        logger.info("Training the Models")
+    @cacher
+    def _train(self, models, data, settings):
         for selector, hours in data.items():
             for hour, values in hours.items():
-                self.models.setdefault(selector, {})
-                self.models[selector][hour] = {
+                models.setdefault(selector, {})
+                models[selector][hour] = {
                     "loc":np.mean(self._stack_data(values), axis=0),
                     "scale":np.std(self._stack_data(values), axis=0)
                 }
+        return models
+
+    def train(self, data, settings):
+        self._check_data(data, settings["min_n_of_data_points"])
+        logger.info("Training the Models")
+        self.models = self._train(self.models, data, settings)
         logger.info("Models Trained")
 
     

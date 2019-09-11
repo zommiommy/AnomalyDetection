@@ -3,7 +3,7 @@ import os
 import time
 import inspect
 import compress_pickle
-from dicthash import generate_hash_from_dict
+from dict_hash import sha256
 from logger import logger
 
 
@@ -24,8 +24,9 @@ class Cacher:
 
     def there_is_cache(self, f, args, kwargs):
         filepath = self._get_filepath(f, args, kwargs)
-        return os.path.isfile(filepath)
-
+        result = os.path.isfile(filepath)
+        logger.info(f"Does the file [{filepath}] exists? {result}")
+        return result
 
     def is_not_expired(self, cache):
         return (time.time() - cache["time"]) <= self.validity_time
@@ -47,19 +48,23 @@ class Cacher:
 
     def _get_hash(self,f, args, kwargs):
         # If class method skip the self argument
-        if inspect.ismethod(f):
-            args = args[1:]
+        args = args[1:]
         
-        return generate_hash_from_dict({
-                                            "f":f.__name__,
-                                            "args":args,
-                                            "kwargs":kwargs
-                                        })
+        obj = {
+                "f":f.__name__,
+                "args":args,
+                "kwargs":kwargs
+            }
+        print(obj)
+        h = sha256(obj)
+        logger.info(f"The hash of [{obj}] is [{h}]")
+        return h
 
     def _get_filepath(self, f, args, kwargs):
         return self.path + self._get_hash(f, args, kwargs) + ".gz"
 
     def __call__(self, f):
+        logger.info(f"Adding cacher to the function {f.__name__}")
         def wrapped(*args, **kwargs):
             if self.there_is_cache(f, args, kwargs):
                 logger.info(f"Found Cache")
