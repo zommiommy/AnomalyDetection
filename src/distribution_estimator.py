@@ -71,7 +71,7 @@ class DistributionEstimator(ML_template):
             for hour, values in hours.items():
                 # Calculate the - log probability of the values assuming that they are independent (Usually just 1 feature so reasonable)
                 score = -np.sum(norm.logpdf(self._stack_data(values), **self.models[selector][hour]), axis=1)
-                output[selector]["score"].append(score)
+                output[selector]["score"].extend(score)
 
         return output
 
