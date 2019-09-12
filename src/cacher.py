@@ -9,7 +9,7 @@ from logger import logger
 
 class Cacher:
 
-    def __init__(self, path="/tmp/anomaly_detection_caches/", validity_time=4*24*60*60):
+    def __init__(self, path="/tmp/anomaly_detection_caches/", validity_time=7*24*60*60):
         self.path = path
         if not self.path.endswith("/"):
             self.path += "/"
