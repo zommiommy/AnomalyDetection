@@ -57,7 +57,6 @@ class Cacher:
                 "args":args,
                 "kwargs":kwargs
             }
-        print(obj)
         h = sha256(obj)
         logger.info(f"The hash of [{obj}] is [{h}]")
         return h
