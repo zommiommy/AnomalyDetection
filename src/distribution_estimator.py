@@ -32,8 +32,8 @@ class DistributionEstimator(ML_template):
             for hour, values in hours.items():
                 models.setdefault(selector, {})
                 models[selector][hour] = {
-                    "loc":np.mean(self._stack_data(values), axis=0),
-                    "scale":np.std(self._stack_data(values), axis=0)
+                    "loc":np.nanmean(self._stack_data(values), axis=0),
+                    "scale":np.nanstd(self._stack_data(values), axis=0)
                 }
         return models
 
@@ -92,7 +92,7 @@ class DistributionEstimator(ML_template):
                 logger.info("The analysis will defaults to normal points under the mean")
                 # If the flag is set then the value below the mean are normal by defaults
                 means = [self.models[selector][hour]["loc"] for hour in range(24)]
-                mean_of_mean = np.mean(means)
+                mean_of_mean = np.nanmean(means)
                 result[np.all(self._stack_data(points) < mean_of_mean, axis=1)] = 0
 
             data[selector]["class"] = result
