@@ -4,6 +4,8 @@ import json
 import logging
 import argparse
 
+import warnings
+warnings.filterwarnings("ignore")
 
 from logger import setLevel
 from detect_anomalies import detect_anomalies
