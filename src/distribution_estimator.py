@@ -16,9 +16,6 @@ class DistributionEstimator(ML_template):
 
     def __init__(self, model_settings, read_settings):
         logger.info(f"Using model [{self.__class__.__name__}]")
-        self.path  = model_settings.pop("model_file_format").format(**read_settings)
-        logger.info("The model path is [{path}]".format(path=self.path))
-        self.model_settings = model_settings
         self.read_settings = read_settings
         self.models = {}
 

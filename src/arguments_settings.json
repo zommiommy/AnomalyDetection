@@ -127,43 +127,7 @@
         }
 
     },
-    "model-settings":{
-        "model-file-format":{
-            "short":"-mff",
-            "long":"--model-file-format",
-            "default":"models/{host}/{measurement}-{host}.pkl",
-            "type":"str",
-            "help":"The path where to save the trained model, this is a format string so it can be used {host} for the name of the selected host and {measurement} for the measurment, finally {date} for the date in which the model was trained. If the path do not exist, the folder will be created."
-        },
-        "contamination": {
-            "short":"-mc",
-            "long":"--model-contamination",
-            "default":"auto",
-            "type":"str",
-            "help":"The percentage of outliers expected. By defaults is at auto."
-        },
-        "behaviour": {
-            "short":"-mb",
-            "long":"--model-behaviour",
-            "default":"new",
-            "type":"str",
-            "help":"Select which API the IsolationForest will use"
-        },
-        "n-jobs": {
-            "short":"-mnj",
-            "long":"--model-n-of-jobs",
-            "default":4,
-            "type":"int",
-            "help":"Number of core to be used for the analysis."
-        },
-        "n-estimators": {
-            "short":"-mnf",
-            "long":"--model-n-of-estimators",
-            "default":200,
-            "type":"int",
-            "help":"The score is based on the mean path lenght, this setting specify how many runs to use to extimate the mean."
-        }
-    },
+    "model-settings":{},
     "classification-settings":{
         "smoothing-window-size": {
             "short":"-csws",
