@@ -3,6 +3,7 @@
 import sys
 import time
 import json
+import numpy as np
 from pprint import pprint
 from influxdb import InfluxDBClient
 
@@ -163,6 +164,7 @@ class DBAdapter:
                 } 
                 for selector, points in results.items()
                 for t, s, _c in zip(results[selector]["time"], results[selector]["score"], results[selector]["class"])
+                if not np.isnan(s)
             ]
             
         if write_settings["write_to_file"]:
