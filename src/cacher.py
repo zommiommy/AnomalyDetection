@@ -48,6 +48,8 @@ class Cacher:
 
     def _get_hash(self,f, args, kwargs):
         # If class method skip the self argument
+        # (inspect.ismethod doesn't seems to works so I assume that
+        # it's a method since this is supposed to cache the training)
         args = args[1:]
         
         obj = {
@@ -72,6 +74,10 @@ class Cacher:
                 if self.is_not_expired(cache):
                     logger.info(f"Cache not expired so it will be used.")
                     return cache["result"]
+                else:
+                    logger.info(f"Cache expired")
+            else:
+                logger.info("No Cache found")
             logger.info(f"Re-newing the cache")
             result = f(*args, **kwargs)
             self.cache(f, args, kwargs, result)
