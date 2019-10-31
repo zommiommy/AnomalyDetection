@@ -58,7 +58,7 @@ If there is a plugin for the measurement it will be used, else the script will a
 
     if args.verbosity == 1:
         setLevel(logging.INFO)
-    if args.verbosity == 2:
+    elif args.verbosity == 2:
         setLevel(logging.DEBUG)
     else:
         setLevel(logging.ERROR)
