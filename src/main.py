@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="""AnomalyDetector is a free software developed by Tommaso Fontana for Wurth Phoenix S.r.l. under GPL-2 License.
 Given the host and measurement it will detect if any anomlaies occurred in the detection time window set.
 If there is a plugin for the measurement it will be used, else the script will analyze the data from all the Numeric fields.""")
-    parser.add_argument("-v", "--verbosity", help="set the logging verbosity, 0 == CRITICAL, 1 == INFO, it defaults to ERROR.",  type=int, choices=[0,1], default=0)
+    parser.add_argument("-v", "--verbosity", help="set the logging verbosity, 0 == CRITICAL, 1 == INFO, 2 == DEBUG it defaults to ERROR.",  type=int, choices=[0,1,2], default=0)
 
     
     # Load the defaults
@@ -58,6 +58,8 @@ If there is a plugin for the measurement it will be used, else the script will a
 
     if args.verbosity == 1:
         setLevel(logging.INFO)
+    if args.verbosity == 2:
+        setLevel(logging.DEBUG)
     else:
         setLevel(logging.ERROR)
 
