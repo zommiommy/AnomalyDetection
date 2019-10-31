@@ -5,7 +5,7 @@ from classifier import Classifier as CL
 from database_adapter import DBAdapter as DB
 
 # from isolation_forest import IsolationForest as ML
-from distribution_estimator import DistributionEstimator as ML
+from time_estimator import TimeEstimator as ML
 
 
 def detect_anomalies(input_db_settings, read_settings, training_settings, analyisis_settings, model_settings, classification_settings, output_db_settings, write_settings):
