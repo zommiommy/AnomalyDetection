@@ -5,7 +5,7 @@ import numpy as np
 from logger import logger
 
 class ML_template:
-    def __init__(self, model_settings : dict):
+    def __init__(self, model_settings, read_settings, training_settings,  analyisis_settings, classification_settings):
         raise NotImplementedError()
 
     def needs_training() -> bool:
@@ -25,8 +25,8 @@ class ML_template:
     def set_seed(self, seed : int) -> None:
         raise NotImplementedError()
 
-    def analyze(self, data : np.array, settings : dict) -> np.array:
+    def analyze(self, data : np.array) -> np.array:
         raise NotImplementedError()
 
-    def classify(self, data, classification_settings):
+    def classify(self, data):
         raise NotImplementedError()

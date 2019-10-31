@@ -13,15 +13,15 @@ def detect_anomalies(input_db_settings, read_settings, training_settings, analyi
     db_in = DB(input_db_settings)
     data = db_in.get_data(read_settings)
 
-    ml = ML(model_settings, read_settings)
+    ml = ML(model_settings, read_settings, training_settings,  analyisis_settings, classification_settings)
 
     if ml.needs_training():
         train_data = db_in.get_training_data(training_settings)
-        ml.train(train_data, training_settings)
+        ml.train(train_data)
 
-    scores  = ml.analyze(data, analyisis_settings)
+    scores  = ml.analyze(data)
 
-    result = ml.classify(scores, classification_settings)
+    result = ml.classify(scores)
 
     db_out = DB(output_db_settings)
     db_out.write(result, write_settings, read_settings)
