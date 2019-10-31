@@ -19,10 +19,11 @@ class Classifier:
             logger.info(f"The normal quantile for the selector [{selector}] is [{normals}]")
             anomalies = np.nanquantile(values, self.settings["anomaly_percentage"])
             logger.info(f"The anomaly quantile for the selector [{selector}] is [{anomalies}]")
+            logger.info(f"The max score for [{selector}] is [{max(values)}]")
             # By default values are possible anomalies
             result = np.ones_like(values)
-            result[result < normals] = 0
-            result[result > anomalies] = 2
+            result[values < normals] = 0
+            result[values > anomalies] = 2
             data[selector]["class"] = result
         
         return data

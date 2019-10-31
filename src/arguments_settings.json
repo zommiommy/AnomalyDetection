@@ -3,7 +3,7 @@
         "database": {
             "short":"-idb",
             "long":"--input-database",
-            "default":"perfdata",
+            "default":"icinga2",
             "type":"str",
             "help":"The databse from where the data shall be read"
         },
@@ -98,7 +98,7 @@
         "min-n-of-data-points":{
             "short":"-tmdp",
             "long":"--training-min-n-of-data-points",
-            "default":50,
+            "default":0,
             "type":"int",
             "help":"The minimum number of points the training needs."
         },
@@ -121,7 +121,7 @@
         "min-n-of-data-points":{
             "short":"-amnodp",
             "long":"--analysis-min-n-of-data-points",
-            "default":50,
+            "default":0,
             "type":"int",
             "help":"The minimum number of points the analysis needs."
         }

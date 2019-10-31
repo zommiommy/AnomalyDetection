@@ -139,6 +139,7 @@ class DBAdapter:
         # If the dry-run flag is set then do not write
         if write_settings["dry_run"]:
             logger.info("Dry-run flag set, then the results will not be written to the DB.")
+            logger.info(f"The results are: {results}")
             return
 
         self._connect_to_db()
