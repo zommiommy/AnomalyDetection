@@ -75,8 +75,7 @@ class TimeEstimator(ML_template):
         logger.info("Classifying the scores")
         for selector, hours in data.items():
             for hour, values in hours.items():
-                                
-                data[selector].setdefault("hour", {"class":[]})
+                data[selector][hour].setdefault("class", [])
                 if hour == "class":
                     continue
                 if len(values["time"]) > 0:
