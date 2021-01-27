@@ -74,8 +74,9 @@ class TimeEstimator(ML_template):
     def classify(self, data):
         logger.info("Classifying the scores")
         for selector, hours in data.items():
-            data[selector].setdefault("class", [])
             for hour, values in hours.items():
+                                
+                data[selector].setdefault("hour", {"class":[]})
                 if hour == "class":
                     continue
                 if len(values["time"]) > 0:
@@ -91,5 +92,5 @@ class TimeEstimator(ML_template):
                     if not np.isnan(anomalies):
                         result[value > anomalies] = 2
 
-                    data[selector][hour]["class"].extend(result)
+                    data[selector][hour]["class"] = result
         return data
