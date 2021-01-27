@@ -91,5 +91,5 @@ class TimeEstimator(ML_template):
                     if not np.isnan(anomalies):
                         result[value > anomalies] = 2
 
-                    data[selector]["class"].extend(result)
+                    data[selector][hour]["class"].extend(result)
         return data
