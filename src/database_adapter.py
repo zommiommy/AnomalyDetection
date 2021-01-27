@@ -160,12 +160,13 @@ class DBAdapter:
                     },
                     "fields": {
                         "score":float(s),
-                        "class":int(_c)
+                        "class_1":int(_c1),
+                        "class_2":int(_c2),
                     }
                 } 
                 for selector, hours in results.items()
                 for hour, data in hours.items()
-                for t, s, _c in zip(data["time"], data.get("score", None) or data.get("value", -1), data["class"])
+                for t, s, _c in zip(data["time"], data.get("score", None) or data.get("value", -1), data["class_1"], data["class_2"])
                 if not np.isnan(s)
             ]
             
