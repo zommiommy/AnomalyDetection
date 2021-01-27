@@ -164,7 +164,7 @@ class DBAdapter:
                     }
                 } 
                 for selector, hours in results.items()
-                for hour, data in hours
+                for hour, data in hours.items()
                 for t, s, _c in zip(data["time"], data.get("score", None) or data.get("value", -1), data["class"])
                 if not np.isnan(s)
             ]
