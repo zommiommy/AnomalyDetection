@@ -49,6 +49,8 @@ If there is a plugin for the measurement it will be used, else the script will a
             if "short" in settings.keys():
                 positional.append(settings.pop("short"))
 
+            if "help" in settings.keys():
+                settings["help"] = " - (default: %(default)s)".format(settings["help"])
             
             # Add the field with the settings
             groups_settings.add_argument(*positional, **settings)
