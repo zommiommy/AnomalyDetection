@@ -85,11 +85,16 @@ class TimeEstimator(ML_template):
                     normals   = self.models[selector][hour]["t_norm"]
                     anomalies = self.models[selector][hour]["t_anom"]
 
+                    # Compute the warnings
                     result = np.zeros_like(value)
                     if not np.isnan(normals):
-                        result[value > normals] = 1
+                        result[np.logical_and(anomalies > value, value > normals)] = 1
+                    data[selector][hour]["class_1"] = result
+                                
+                    # Compute the anomalies
+                    result = np.zeros_like(value)
                     if not np.isnan(anomalies):
-                        result[value > anomalies] = 2
+                        result[value >= anomalies] = 2
+                    data[selector][hour]["class_1"] = result
 
-                    data[selector][hour]["class"] = result
         return data
