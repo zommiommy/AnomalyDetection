@@ -290,3 +290,60 @@ Other smaller improvements can be :
 - Multiprocessing the analysis
 - Adding the possibility to select different detection methods (Current one, Isolation Forest, ...)
 - Model Caching
+
+# Data flow
+
+From Influx we get a list of dictionaries:
+```
+[
+    {
+        key:[]
+    }
+]
+```
+
+The data caster group the values by key (list of dict -> dict of dict of lists)
+```
+{
+    selector:{
+        key:[]
+    }
+}
+```
+
+Then it groups the lists by hour:
+```
+{
+    selector:{
+        ora:{
+            chiave:np.array()
+        }
+    }
+}
+```
+
+Analysis from the chosen ML method:
+```
+{
+    selector:{
+        ora:{
+            "score" or "value":np.array()
+            chiave:np.array()
+        }
+    }
+}
+```
+
+Classification from the chosen ML method
+
+```
+{
+    selector:{
+        ora:{
+            "class":np.array()
+            "score" or "value":np.array()
+            chiave:np.array()
+        }
+    }
+}
+```
