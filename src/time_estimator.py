@@ -34,9 +34,9 @@ class TimeEstimator(ML_template):
         for selector, hours in data.items():
             for hour, values in hours.items():
                 if "value" not in values.keys():
-                    logger.warning("Skipping the hour {} for the selector {}".format(hour, selector))
+                    logger.warning("Skipping the hour {} for the selector {} for the training".format(hour, selector))
                     continue
-                
+
                 models.setdefault(selector, {})
                 models[selector].setdefault(hour, 
                     {
@@ -84,6 +84,10 @@ class TimeEstimator(ML_template):
                     continue
                 if len(values["time"]) > 0:
                     
+                    if "value" not in values.keys():
+                        logger.warning("Skipping the hour {} for the selector {} for the calssification".format(hour, selector))
+                        continue
+
                     value = values["value"]
 
                     normals   = self.models[selector][hour]["t_norm"]
