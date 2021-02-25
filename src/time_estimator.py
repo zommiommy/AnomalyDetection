@@ -33,6 +33,10 @@ class TimeEstimator(ML_template):
         """This function has useless arguments for the cacher to identify different Calls"""
         for selector, hours in data.items():
             for hour, values in hours.items():
+                if "value" not in values.keys():
+                    logger.warning("Skipping the hour {} for the selector {}".format(hour, selector))
+                    continue
+                
                 models.setdefault(selector, {})
                 models[selector].setdefault(hour, 
                     {
