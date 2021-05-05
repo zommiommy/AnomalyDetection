@@ -172,10 +172,10 @@ class DBAdapter:
                         "score":float(),
                         "class_1":int(values[1]),
                         "class_2":int(values[2]),
-                        **dict([
+                        **{
                             field: values[i]
                             for field, i in zip(fields_to_parse, range(2, len(data.keys())))
-                        ])
+                        })
                     }
                 } 
                 for combination, hours in results.items()
