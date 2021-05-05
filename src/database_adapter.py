@@ -95,7 +95,7 @@ class DBAdapter:
 
     def _group_data(self, results, read_settings):
         return  {
-                    combination : [
+                    str(combination) : [
                         x for x in results
                         if all (
                             x[selector] == value
