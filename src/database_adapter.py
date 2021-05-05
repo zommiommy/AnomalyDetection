@@ -103,10 +103,10 @@ class DBAdapter:
                         )
                     ]
                     for combination in {
-                        [
+                        tuple([
                             x[selector]
                             for selector in read_settings["selectors"]
-                        ]
+                        ])
                         for x in results
                     }
                 }
