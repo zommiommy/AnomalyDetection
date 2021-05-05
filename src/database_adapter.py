@@ -85,9 +85,9 @@ class DBAdapter:
         fields = [self.read_settings["field"]]
         if "time" not in fields:
             fields.append("time")
-        results.extend(self.read_settings["selectors"])
-        logger.info(f"The fields rendered are [{results}]")
-        return results
+        fields.extend(self.read_settings["selectors"])
+        logger.info(f"The fields rendered are [{fields}]")
+        return fields
 
 
     def _group_data(self, results, read_settings):
