@@ -157,24 +157,21 @@ class DBAdapter:
         results = [
                 {
                     "measurement":name, 
-                    "time": epoch_to_iso(values[0]),
+                    "time": epoch_to_iso(t),
                     "tags":{
                         self.host_field:host,
                         **dict(zip(read_settings["selectors"], combination))
                         
                     },
                     "fields": {
-                        "class_1":int(values[1]),
-                        "class_2":int(values[2]),
-                        **{
-                            field: values[i]
-                            for field, i in zip(fields_to_parse, range(2, len(data.keys())))
-                        }
+                        "class_1":int(c1),
+                        "class_2":int(c2),
+                        read_settings["field"]:f,
                     }
                 } 
                 for combination, hours in results.items()
                 for hour, data in hours.items()
-                for values in zip(data["time"], data["class_1"], data["class_2"], *[data[x] for x in data.keys() if x not in ["time", "class"]])
+                for t, c1, c2, f in zip(data["time"], data["class_1"], data["class_2"], data[read_settings["field"]])
             ]
             
         logger.info("The result has {} rows".format(len(results)))
