@@ -95,7 +95,7 @@ class DBAdapter:
 
     def _group_data(self, results, read_settings):
         return  {
-                    str(combination) : [
+                    combination : [
                         x for x in results
                         if all (
                             x[selector] == value
@@ -163,7 +163,7 @@ class DBAdapter:
                     "time": epoch_to_iso(t),
                     "tags":{
                         self.host_field:host,
-                        read_settings["selector"]:selector
+                        **dict(zip(read_settings["selectors"], combination))
                     },
                     "fields": {
                         "score":float(s),
@@ -171,7 +171,7 @@ class DBAdapter:
                         "class_2":int(_c2),
                     }
                 } 
-                for selector, hours in results.items()
+                for combination, hours in results.items()
                 for hour, data in hours.items()
                 for t, s, _c1, _c2 in zip(data["time"], data.get("score", None) or data.get("value", -1), data.get("class_1", -1), data.get("class_2", -1))
                 if not np.isnan(s)
