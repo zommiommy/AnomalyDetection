@@ -76,7 +76,7 @@
             "long":"--add-selector",
             "default":"",
             "type":"str",
-            "help":"Add the selector to the analysis. This is the list of fields that will be used to group the data for the analysis"
+            "help":"Add the selector to the analysis. This is the list of fields, separated by comma, that will be used to group the data for the analysis"
         },
         "exclude":{
             "short":"-e",

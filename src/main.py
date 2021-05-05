@@ -74,6 +74,9 @@ If there is a plugin for the measurement it will be used, else the script will a
         for group, arguments in args_settings.items()
     }
 
+    settings["selectors"] = settings.get("selector", "").split(",")
+
+
     # Call the anomaly detection
     detect_anomalies(**settings)
 
