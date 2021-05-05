@@ -156,8 +156,6 @@ class DBAdapter:
         name = write_settings["measurement_name"].format(**read_settings)
         host = read_settings["host"]
 
-        fields_to_parse = self.get_fields_to_parse()
-
         # port the data to the influx standard
         results = [
                 {
@@ -179,7 +177,7 @@ class DBAdapter:
                 } 
                 for combination, hours in results.items()
                 for hour, data in hours.items()
-                for values in zip(data["time"], data["class"], *[data[x] for x in fields_to_parse])
+                for values in zip(data["time"], data["class"], *[data[x] for x in data.keys() if x not in ["time", "class"]])
                 if not np.isnan(s)
             ]
             
