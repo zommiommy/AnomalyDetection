@@ -164,7 +164,6 @@ class DBAdapter:
                         
                     },
                     "fields": {
-                        "score":float(),
                         "class_1":int(values[1]),
                         "class_2":int(values[2]),
                         **{
@@ -176,7 +175,6 @@ class DBAdapter:
                 for combination, hours in results.items()
                 for hour, data in hours.items()
                 for values in zip(data["time"], data["class_1"], data["class_2"], *[data[x] for x in data.keys() if x not in ["time", "class"]])
-                if not np.isnan(s)
             ]
             
         logger.info("The result has {} rows".format(len(results)))

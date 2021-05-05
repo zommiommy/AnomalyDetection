@@ -342,7 +342,6 @@ Classification from the chosen ML method
         ora:{
             "class_1":np.array() # 1 if warning 0 if not
             "class_2":np.array() # 1 if anomaly 0 if not
-            "score" or "value":np.array()
             chiave:np.array()
         }
     }
