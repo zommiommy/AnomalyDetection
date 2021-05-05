@@ -33,7 +33,7 @@ class TimeEstimator(ML_template):
         """This function has useless arguments for the cacher to identify different Calls"""
         for selector, hours in data.items():
             for hour, values in hours.items():
-                if "value" not in values.keys():
+                if self.read_settings["field"] not in values.keys():
                     logger.warning("Skipping the hour {} for the selector {} for the training".format(hour, selector))
                     continue
 
@@ -45,8 +45,8 @@ class TimeEstimator(ML_template):
                     }
                 )
                 if len(values["time"]) > 0:
-                    t_norm = np.nanquantile(values["value"], self.classification_settings["normal_percentage"])
-                    t_anom = np.nanquantile(values["value"], self.classification_settings["anomaly_percentage"])
+                    t_norm = np.nanquantile(values[self.read_settings["field"]], self.classification_settings["normal_percentage"])
+                    t_anom = np.nanquantile(values[self.read_settings["field"]], self.classification_settings["anomaly_percentage"])
                     models[selector][hour] = {
                         "t_norm":t_norm,
                         "t_anom":t_anom,
@@ -84,11 +84,11 @@ class TimeEstimator(ML_template):
                     continue
                 if len(values["time"]) > 0:
                     
-                    if "value" not in values.keys():
-                        logger.warning("Skipping the hour {} for the selector {} for the calssification".format(hour, selector))
+                    if self.read_settings["field"] not in values.keys():
+                        logger.warning("Skipping the hour {} for the selector {} for the classification".format(hour, selector))
                         continue
 
-                    value = values["value"]
+                    value = values[self.read_settings["field"]]
 
                     normals   = self.models[selector][hour]["t_norm"]
                     anomalies = self.models[selector][hour]["t_anom"]

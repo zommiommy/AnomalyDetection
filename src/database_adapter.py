@@ -82,12 +82,9 @@ class DBAdapter:
 
     def render_fields(self):
         self.get_fields_types()
-        fields = self.read_settings["field"]
-        if fields == []:
-            fields = self.get_fields_to_parse()
+        fields = [self.read_settings["field"]]
         if "time" not in fields:
             fields.append("time")
-        results = [x for x in fields if x not in self.read_settings["exclude"]]
         results.extend(self.read_settings["selectors"])
         logger.info(f"The fields rendered are [{results}]")
         return results
@@ -181,6 +178,8 @@ class DBAdapter:
                 if not np.isnan(s)
             ]
             
+        logger.info("The result has {} rows".format(len(results)))
+
         if write_settings["write_to_file"]:
             filepath = write_settings["output_file"].format(**read_settings)
             logger.info("write-to-file flag set, then the results will not be written to the DB but on {}".format(filepath))

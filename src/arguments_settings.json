@@ -64,12 +64,9 @@
             "help":"The host from whom the data shall be filtered"
         },
         "field":{
-            "short":"-f",
-            "long":"--add-field",
-            "default":[],
-            "action":"append",
+            "long":"field",
             "type":"str",
-            "help":"Add the field to the analysis. if this argument is not setted then the script will use all the field of the schema."
+            "help":"The name of the column to analyze."
         },
         "selector":{
             "short":"-s",
@@ -77,14 +74,6 @@
             "default":"",
             "type":"str",
             "help":"Add the selector to the analysis. This is the list of fields, separated by comma, that will be used to group the data for the analysis"
-        },
-        "exclude":{
-            "short":"-e",
-            "long":"--exclude-field",
-            "default":[],
-            "action":"append",
-            "type":"str",
-            "help":"Exclude the selected field from the analysis."
         },
         "time":{
             "short":"-t",
