@@ -88,6 +88,7 @@ class DBAdapter:
         if "time" not in fields:
             fields.append("time")
         results = [x for x in fields if x not in self.read_settings["exclude"]]
+        results.append(self.read_settings["selector"])
         logger.info(f"The fields rendered are [{results}]")
         return results
 
@@ -99,9 +100,9 @@ class DBAdapter:
                         if x[read_settings["selector"]] == combination
                     ]
                     for combination in {
-                            x[read_settings["selector"]]
-                            for x in results
-                        }
+                        x[read_settings["selector"]]
+                        for x in results
+                    }
                 }
         
     
