@@ -175,7 +175,7 @@ class DBAdapter:
                         **{
                             field: values[i]
                             for field, i in zip(fields_to_parse, range(2, len(data.keys())))
-                        })
+                        }
                     }
                 } 
                 for combination, hours in results.items()
