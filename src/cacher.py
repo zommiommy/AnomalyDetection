@@ -57,7 +57,7 @@ class Cacher:
                 "args":args,
                 "kwargs":kwargs
             }
-        h = sha256(obj)
+        h = sha256(str(obj))
         logger.debug(f"The hash of [{obj}] is [{h}]")
         return h
 
