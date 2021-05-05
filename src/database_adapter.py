@@ -156,24 +156,31 @@ class DBAdapter:
         name = write_settings["measurement_name"].format(**read_settings)
         host = read_settings["host"]
 
+        fields_to_parse = self.get_fields_to_parse()
+
         # port the data to the influx standard
         results = [
                 {
                     "measurement":name, 
-                    "time": epoch_to_iso(t),
+                    "time": epoch_to_iso(values[0]),
                     "tags":{
                         self.host_field:host,
                         **dict(zip(read_settings["selectors"], combination))
+                        
                     },
                     "fields": {
-                        "score":float(s),
-                        "class_1":int(_c1),
-                        "class_2":int(_c2),
+                        "score":float(),
+                        "class_1":int(values[1]),
+                        "class_2":int(values[2]),
+                        **dict([
+                            field: values[i]
+                            for field, i in zip(fields_to_parse, range(2, len(data.keys())))
+                        ])
                     }
                 } 
                 for combination, hours in results.items()
                 for hour, data in hours.items()
-                for t, s, _c1, _c2 in zip(data["time"], data[read_settings["field"]], data["class_1"], data["class_2"])
+                for values in zip(data["time"], data["class_1"], data["class_2"], *[data[x] for x in fields_to_parse])
                 if not np.isnan(s)
             ]
             
