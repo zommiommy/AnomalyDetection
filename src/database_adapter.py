@@ -104,7 +104,7 @@ class DBAdapter:
                     ]
                     for combination in {
                         [
-                            x[read_settings["selector"]]
+                            x[selector]
                             for selector in read_settings["selectors"]
                         ]
                         for x in results
