@@ -173,7 +173,7 @@ class DBAdapter:
                 } 
                 for combination, hours in results.items()
                 for hour, data in hours.items()
-                for t, s, _c1, _c2 in zip(data["time"], data["score"] or data["value"], data["class_1"], data["class_2]")
+                for t, s, _c1, _c2 in zip(data["time"], data["score"] or data["value"], data["class_1"], data["class_2"])
                 if not np.isnan(s)
             ]
             
